@@ -1,0 +1,218 @@
+{
+  "products": [
+    {
+      "name": "Samsung Galaxy S23 Ultra",
+      "description": "สมาร์ทโฟนเรือธงกล้อง 200MP จอ AMOLED 6.8 นิ้ว",
+      "price": 39900,
+      "stock": 25,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764239/samsung_s23_ultra_qx7hvj.webp"
+    },
+    {
+      "name": "Apple iPhone 15 Pro Max",
+      "description": "iPhone รุ่นล่าสุดพร้อมชิป A17 Pro และกล้อง Telephoto",
+      "price": 48900,
+      "stock": 18,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764379/logitech_mx_master_3s_-_graphite_097855175359_-5_v5gsmu.webp"
+    },
+    {
+      "name": "Sony WH-1000XM5",
+      "description": "หูฟังตัดเสียงรบกวนระดับพรีเมียมจาก Sony",
+      "price": 12990,
+      "stock": 40,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764239/samsung_s23_ultra_qx7hvj.webp"
+    },
+    {
+      "name": "Apple MacBook Air M2",
+      "description": "โน้ตบุ๊คบางเบา ชิป M2 จอ 13 นิ้ว",
+      "price": 43900,
+      "stock": 10,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764379/logitech_mx_master_3s_-_graphite_097855175359_-5_v5gsmu.webp"
+    },
+    {
+      "name": "Xiaomi Smart Air Purifier 4",
+      "description": "เครื่องฟอกอากาศสำหรับห้องขนาดกลางถึงใหญ่",
+      "price": 4990,
+      "stock": 50,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764239/samsung_s23_ultra_qx7hvj.webp"
+    },
+    {
+      "name": "Logitech MX Master 3S",
+      "description": "เมาส์ไร้สายสำหรับงานโปรดักทีฟ",
+      "price": 3490,
+      "stock": 30,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764379/logitech_mx_master_3s_-_graphite_097855175359_-5_v5gsmu.webp"
+    },
+    {
+      "name": "Sony PlayStation 5",
+      "description": "เครื่องเกมคอนโซลยุคใหม่พร้อม SSD ความเร็วสูง",
+      "price": 18990,
+      "stock": 12,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764523/play5_ubonkx.jpg"
+    },
+    {
+      "name": "Google Pixel 8 Pro",
+      "description": "สมาร์ทโฟน Android แท้ พร้อม AI ในตัว",
+      "price": 36900,
+      "stock": 20,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764577/google__pixel__8__pro_fdlfde.webp"
+    },
+    {
+      "name": "DJI Mini 3 Pro Drone",
+      "description": "โดรนสำหรับถ่ายภาพทางอากาศระดับมืออาชีพ",
+      "price": 23900,
+      "stock": 8,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764379/logitech_mx_master_3s_-_graphite_097855175359_-5_v5gsmu.webp"
+    },
+    {
+      "name": "Samsung Smart Monitor M8",
+      "description": "จอมอนิเตอร์อัจฉริยะ 32 นิ้ว พร้อม Smart TV OS",
+      "price": 16990,
+      "stock": 14,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764680/th-feature-match-your-monitor-to-your-style-536083059_r9lx6v.avif"
+    },
+
+    {
+      "name": "Anker PowerCore 10000mAh",
+      "description": "แบตสำรองความจุสูง พกพาสะดวก",
+      "price": 890,
+      "stock": 100,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764239/samsung_s23_ultra_qx7hvj.webp"
+    },
+    {
+      "name": "Fitbit Charge 6",
+      "description": "สายรัดข้อมือเพื่อสุขภาพพร้อม GPS",
+      "price": 4990,
+      "stock": 22,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764379/logitech_mx_master_3s_-_graphite_097855175359_-5_v5gsmu.webp"
+    },
+    {
+      "name": "Kindle Paperwhite 11th Gen",
+      "description": "E-reader จอ 6.8 นิ้ว อ่านกลางแดดได้",
+      "price": 5990,
+      "stock": 35,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764379/logitech_mx_master_3s_-_graphite_097855175359_-5_v5gsmu.webp"
+    },
+    {
+      "name": "HP Smart Tank 580",
+      "description": "เครื่องพิมพ์ All-in-one รองรับ Wi-Fi",
+      "price": 5490,
+      "stock": 15,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764239/samsung_s23_ultra_qx7hvj.webp"
+    },
+    {
+      "name": "ASUS ROG Strix G16",
+      "description": "โน้ตบุ๊คเกมมิ่งจอ 165Hz RTX4060",
+      "price": 48900,
+      "stock": 9,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764379/logitech_mx_master_3s_-_graphite_097855175359_-5_v5gsmu.webp"
+    },
+
+    {
+      "name": "Razer BlackWidow V4",
+      "description": "คีย์บอร์ด Mechanical สำหรับเกมเมอร์",
+      "price": 4990,
+      "stock": 28,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764680/th-feature-match-your-monitor-to-your-style-536083059_r9lx6v.avif"
+    },
+    {
+      "name": "Samsung Galaxy Tab S9",
+      "description": "แท็บเล็ตจอ AMOLED กันน้ำได้",
+      "price": 29900,
+      "stock": 16,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764379/logitech_mx_master_3s_-_graphite_097855175359_-5_v5gsmu.webp"
+    },
+    {
+      "name": "GoPro Hero 12 Black",
+      "description": "กล้องแอ็คชั่น 5.3K พร้อมกันสั่น Hypersmooth",
+      "price": 15900,
+      "stock": 12,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764239/samsung_s23_ultra_qx7hvj.webp"
+    },
+    {
+      "name": "TP-Link Deco X60",
+      "description": "Mesh Wi-Fi 6 สำหรับบ้านทั้งหลัง",
+      "price": 5990,
+      "stock": 30,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764680/th-feature-match-your-monitor-to-your-style-536083059_r9lx6v.avif"
+    },
+    {
+      "name": "SanDisk Extreme Portable SSD 1TB",
+      "description": "SSD พกพาความเร็วสูงกันน้ำกันฝุ่น",
+      "price": 3890,
+      "stock": 55,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764379/logitech_mx_master_3s_-_graphite_097855175359_-5_v5gsmu.webp"
+    },
+
+    {
+      "name": "LG Ultragear 27GN950",
+      "description": "จอ 4K 144Hz HDR600 สำหรับเกมเมอร์",
+      "price": 27900,
+      "stock": 5,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764239/samsung_s23_ultra_qx7hvj.webp"
+    },
+    {
+      "name": "Canon EOS R10",
+      "description": "กล้อง Mirrorless 24MP พร้อมเลนส์คิท",
+      "price": 28900,
+      "stock": 7,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764680/th-feature-match-your-monitor-to-your-style-536083059_r9lx6v.avif"
+    },
+    {
+      "name": "Marshall Emberton II",
+      "description": "ลำโพงพกพากันน้ำ เสียงแน่น",
+      "price": 5990,
+      "stock": 20,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764239/samsung_s23_ultra_qx7hvj.webp"
+    },
+    {
+      "name": "Realme GT Neo 6",
+      "description": "มือถือแรงจัด พร้อม Snapdragon 8 Gen 2",
+      "price": 15990,
+      "stock": 25,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764239/samsung_s23_ultra_qx7hvj.webp"
+    },
+    {
+      "name": "ASUS Zenbook Duo OLED",
+      "description": "โน้ตบุ๊ค 2 หน้าจอ OLED สุดล้ำ",
+      "price": 49900,
+      "stock": 6,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764680/th-feature-match-your-monitor-to-your-style-536083059_r9lx6v.avif"
+    },
+
+    {
+      "name": "JBL Flip 6",
+      "description": "ลำโพง Bluetooth พกพาเสียงดี",
+      "price": 3990,
+      "stock": 33,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764680/th-feature-match-your-monitor-to-your-style-536083059_r9lx6v.avif"
+    },
+    {
+      "name": "Apple AirPods Pro 2",
+      "description": "หูฟังไร้สาย พร้อม Spatial Audio และ ANC",
+      "price": 8990,
+      "stock": 20,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764680/th-feature-match-your-monitor-to-your-style-536083059_r9lx6v.avif"
+    },
+    {
+      "name": "Nintendo Switch OLED",
+      "description": "เครื่องเกมพกพาจอ OLED 7 นิ้ว",
+      "price": 11900,
+      "stock": 18,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764239/samsung_s23_ultra_qx7hvj.webp"
+    },
+    {
+      "name": "Philips Hue Lightstrip",
+      "description": "ไฟ LED Smart เปลี่ยนสีได้ผ่านแอป",
+      "price": 2490,
+      "stock": 45,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764680/th-feature-match-your-monitor-to-your-style-536083059_r9lx6v.avif"
+    },
+    {
+      "name": "Garmin Forerunner 265",
+      "description": "สมาร์ทวอทช์ GPS สำหรับนักวิ่ง",
+      "price": 13900,
+      "stock": 13,
+      "img": "https://res.cloudinary.com/dmzla7cgd/image/upload/v1752764680/th-feature-match-your-monitor-to-your-style-536083059_r9lx6v.avif"
+    }
+  ]
+}
