@@ -20,7 +20,7 @@ export const cancelOrder = async (id) => {
   return res.data;
 };
 
-export const createSubOrder = async (id) => {
-  const res = await axios.post(`/orders/${id}/subscribe`);
+export const createSubOrder = async (id, data) => {
+  const res = await axios.post(`/orders/${id}/subscribe`, data);
   return res.data;
 };

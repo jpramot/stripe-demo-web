@@ -4,10 +4,10 @@ import * as orderApi from "../../../api/orderApi";
 import { Link } from "react-router";
 import { useState } from "react";
 
-export default function () {
+export default function CartList() {
   const cart = useCartStore((state) => state.cart);
-  const [userId, setUserId] = useState("");
-  const [discount, setDiscount] = useState("");
+  const [userId, setUserId] = useState("1");
+  const [discount, setDiscount] = useState(0);
 
   const hdlCheckout = async () => {
     const data = await orderApi.createOrder({ userId, discount, cart });

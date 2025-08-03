@@ -87,7 +87,12 @@ export default function SuccessOrderPage() {
         }
 
         if (checkoutData.type === "subscription") {
-          const endDate = new Date(checkoutData.currentPeriodEnd * 1000).toLocaleDateString();
+          const endDate = new Date(checkoutData.currentPeriodEnd).toLocaleString("en-US", {
+            month: "long",
+            day: "numeric",
+            year: "numeric",
+            timeZone: "Asia/Bangkok",
+          });
           return (
             <>
               <h1 className="text-3xl font-bold text-green-600 mb-4">✅ Subscription Active</h1>

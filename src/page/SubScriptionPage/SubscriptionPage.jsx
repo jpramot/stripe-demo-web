@@ -12,15 +12,14 @@ const products = [
     id: "price_1RqmLsC4T8NNH8UQkJpB01qA",
     name: "Premium Plan",
     description: "แผนระดับมืออาชีพ พร้อมฟีเจอร์ครบครัน",
-    price: "฿4999 / เดือน",
+    price: "฿4999 / ปี",
   },
 ];
 
 export default function SubscriptionPage() {
-  const [loading, setLoading] = useState(null);
-
+  const [userId, setUserId] = useState("1");
   const handleSubscribe = async (productId) => {
-    const data = await orderApi.createSubOrder(productId);
+    const data = await orderApi.createSubOrder(productId, { userId });
     window.location.href = data.url;
   };
 
@@ -38,6 +37,17 @@ export default function SubscriptionPage() {
 
       <h1 className="text-3xl font-bold mb-6 text-center">เลือกแผนการใช้งาน</h1>
 
+      {/* Input สำหรับ User ID */}
+      <div className="mb-6 text-center">
+        <input
+          type="text"
+          placeholder="กรอก User ID ของคุณ"
+          value={userId}
+          onChange={(e) => setUserId(e.target.value)}
+          className="border border-gray-300 rounded-md px-3 py-1 w-60 text-center"
+        />
+      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {products.map((product) => (
           <div
@@ -49,11 +59,9 @@ export default function SubscriptionPage() {
             <p className="text-lg font-bold text-indigo-600 mb-6">{product.price}</p>
             <button
               onClick={() => handleSubscribe(product.id)}
-              className={`w-full py-2 px-4 rounded-md text-white font-medium ${
-                loading === product.id ? "bg-gray-400" : "bg-indigo-600 hover:bg-indigo-700"
-              }`}
+              className="w-full py-2 px-4 rounded-md text-white font-medium bg-indigo-600 hover:bg-indigo-700"
             >
-              {loading === product.id ? "กำลังดำเนินการ..." : "สมัครใช้งาน"}
+              สมัครใช้งาน
             </button>
           </div>
         ))}
