@@ -20,8 +20,8 @@ export default function SuccessOrderPage() {
         const { checkout } = await checkoutApi.checkStatusPayment(sessionId);
 
         if (
-          (checkout.type === "payment" && checkout.status.toLowerCase() === "paid") ||
-          (checkout.type === "subscription" && checkout.status.toLowerCase() === "active")
+          (checkout?.type === "payment" && checkout?.status.toLowerCase() === "paid") ||
+          (checkout?.type === "subscription" && checkout?.status.toLowerCase() === "active")
         ) {
           setCheckoutData(checkout);
           setStatus("SUCCESS");
@@ -43,8 +43,8 @@ export default function SuccessOrderPage() {
 
     const timeout = setTimeout(() => {
       console.log("timeout: ", status);
-      clearInterval(interval);
       setStatus("FAILED");
+      clearInterval(interval);
     }, 30000);
 
     return () => {
